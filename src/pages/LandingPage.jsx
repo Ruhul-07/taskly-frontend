@@ -16,7 +16,7 @@ const LandingPage = () => {
           A modern and easy-to-use task management tool to help you stay on top of your work.
         </p>
         <button
-          onClick={() => navigate("/login")}
+          onClick={() => navigate("/signUp")}
           className="px-8 py-4 bg-white text-blue-600 text-lg font-semibold rounded-lg hover:bg-gray-200 transition transform hover:scale-105"
         >
           Get Started for Free
