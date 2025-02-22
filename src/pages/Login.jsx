@@ -18,7 +18,7 @@ const SignUp = () => {
     googleSignIn()
     .then(result => {
         console.log(result)
-        navigate("dashboard")
+        navigate("/dashboard")
     })
   }
 
