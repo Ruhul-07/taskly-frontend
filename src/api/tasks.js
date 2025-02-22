@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/tasks"; // Change if using a different backend URL
+const API_URL = "https://taskly-backend-sigma.vercel.app/tasks"; // Change if using a different backend URL
 
 // Fetch all tasks
 export const fetchTasks = async () => {
